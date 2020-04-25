@@ -84,8 +84,10 @@ def juego():
     print("Juego terminado")
     if playersScore[0] > playersScore[1]:
         print("Gano el jugador 1")
-    else:
+    elif playersScore[1] > playersScore[0]:
         print("Gano el jugador 2")
+    else:
+        print("Empate")
 
 #Main
 juego()
