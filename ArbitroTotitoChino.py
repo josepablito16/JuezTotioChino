@@ -36,7 +36,7 @@ def turno(lista, posicion, player):
                     if horizontales[x] == 1 and horizontales[x+1] == 1 and verticales[contador + acumulador] == 1 and verticales[contador + acumulador + 1] == 1:
                         punteoTurno = punteoTurno + 1
                     
-                    acumulador = acumulador + 4
+                    acumulador = acumulador + N
                 else:
                     contador = contador + 1
                     acumulador = 0
